@@ -1,0 +1,21 @@
+// main: ../style.less
+.nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.nav__link {
+    margin-right: 2.66rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: @gray;
+    &:hover {
+        color: @black;
+    }
+    &:last-child {
+        margin: 0;
+    }
+}
+
